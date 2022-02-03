@@ -6,7 +6,7 @@ _✔ A collection of useful validation rules for FluentValidation and Entity Fra
 ---
 ![GitHub](https://img.shields.io/github/license/CloudeyIT/FluentValidation.Rules)
 ![Nuget](https://img.shields.io/nuget/v/Cloudey.FluentValidation.Rules)
-![Nuget](https://img.shields.io/nuget/dt/Cloudey.FluentValidation.Rules/)
+![Nuget](https://img.shields.io/nuget/dt/Cloudey.FluentValidation.Rules)
 
 ## What is this
 
