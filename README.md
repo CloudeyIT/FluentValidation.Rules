@@ -1,12 +1,12 @@
-![Cloudey](./docs/logo-dark@0.5x.png#gh-light-mode-only)  
-![Cloudey](./docs/logo-light@0.5x.png#gh-dark-mode-only)  
+[![Cloudey](./docs/logo-dark@0.5x.png#gh-light-mode-only)](https://cloudey.net)  
+[![Cloudey](./docs/logo-light@0.5x.png#gh-dark-mode-only)](https://cloudey.net)
 # FluentValidation Rules
 _✔ A collection of useful validation rules for FluentValidation and Entity Framework Core ✨_
 
 ---
-![GitHub](https://img.shields.io/github/license/CloudeyIT/FluentValidation.Rules)
-![Nuget](https://img.shields.io/nuget/v/Cloudey.FluentValidation.Rules)
-![Nuget](https://img.shields.io/nuget/dt/Cloudey.FluentValidation.Rules)
+[![GitHub](https://img.shields.io/github/license/CloudeyIT/FluentValidation.Rules)](https://github.com/CloudeyIT/FluentValidation.Rules/blob/master/LICENSE)
+[![Nuget](https://img.shields.io/nuget/v/Cloudey.FluentValidation.Rules)](https://www.nuget.org/packages/Cloudey.FluentValidation.Rules/)
+[![Nuget](https://img.shields.io/nuget/dt/Cloudey.FluentValidation.Rules)](https://www.nuget.org/packages/Cloudey.FluentValidation.Rules/)
 
 ## What is this
 
