@@ -39,7 +39,7 @@ RuleFor(x => x.CountryCode)
     
 // Optionally, apply a transformation to the value you are validating before it is compared
 RuleFor(x => x.CountryCode)
-    .Unique(context, (Country country) => country.Code, value => value.ToUpper())
+    .Exists(context, (Country country) => country.Code, value => value.ToUpper())
 ```
 
 ## Dependencies
