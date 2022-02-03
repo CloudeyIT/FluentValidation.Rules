@@ -6,29 +6,34 @@
         <Nullable>enable</Nullable>
         <IsPackable>True</IsPackable>
     </PropertyGroup>
-    
+
     <PropertyGroup>
         <PackageId>Cloudey.FluentValidation.Rules</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Kristo Lippur</Authors>
         <Company>Cloudey IT Ltd.</Company>
         <SupportUrl>https://cloudey.net</SupportUrl>
         <WebPage>https://cloudey.net</WebPage>
         <PackageTags>FluentValidation;Rules;Entity Framework;Entity Framework Core;EF Core;EFCore;Unique;Exists</PackageTags>
         <Description>
-            Useful validation rules for FluentValidation and Entity Framework Core.
-            Unique - Validate if the value is unique in the given DbContext for the given entity and property
-            Exists - Validate if the value exists in the given DbContext for the given entity and property
-            
-            Example: RuleFor(x => x.Email).Unique(context, (User user) => user.Email) 
-            Validates that the given email does not already exist for any user in the database.
+Useful validation rules for FluentValidation and Entity Framework Core.
+
+Unique - Validate if the value is unique in the given DbContext for the given entity and property
+Exists - Validate if the value exists in the given DbContext for the given entity and property
+
+Example: RuleFor(x => x.Email).Unique(context, (User user) => user.Email)
+Validates that the given email does not already exist for any user in the database.
         </Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/CloudeyIT/FluentValidation.Rules.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="FluentValidation" Version="10.3.6" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+        <PackageReference Include="FluentValidation" Version="10.3.6"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1"/>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
     </ItemGroup>
 
 </Project>
