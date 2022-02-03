@@ -9,7 +9,7 @@
 
     <PropertyGroup>
         <PackageId>Cloudey.FluentValidation.Rules</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>Kristo Lippur</Authors>
         <Company>Cloudey IT Ltd.</Company>
         <SupportUrl>https://cloudey.net</SupportUrl>
@@ -28,12 +28,14 @@ Validates that the given email does not already exist for any user in the databa
         <RepositoryUrl>https://github.com/CloudeyIT/FluentValidation.Rules.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="FluentValidation" Version="10.3.6"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1"/>
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
