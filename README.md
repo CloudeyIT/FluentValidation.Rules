@@ -1,5 +1,5 @@
-![Cloudey](https://s.cloudey.net/logo/v5/logo-dark@0.5x.png#gh-light-mode-only)  
-![Cloudey](https://s.cloudey.net/logo/v5/logo-light@0.5x.png#gh-dark-mode-only)  
+![Cloudey](./docs/logo-dark@0.5x.png#gh-light-mode-only)  
+![Cloudey](./docs/logo-light@0.5x.png#gh-dark-mode-only)  
 # FluentValidation Rules
 _✔ A collection of useful validation rules for FluentValidation and Entity Framework Core ✨_
 
