@@ -54,5 +54,7 @@ Install with [NuGet](https://www.nuget.org/packages/Cloudey.FluentValidation.Rul
 
 ## License
 
-Licensed under MIT.  
-Copyright © 2021 Cloudey IT Ltd
+Licensed under MIT without trademark grant.  
+Copyright © 2021 Cloudey IT Ltd  
+
+**Cloudey® is a registered trademark of Cloudey IT Ltd**. Use of the Cloudey trademark is **NOT GRANTED** as part of the license of this repository and/or package, notwithstanding any notice in the license or other published material. Users of the code or material contained and/or distributed as part of this repository **ARE NOT** granted a license to use the Cloudey trademark by virtue of this repository and package being license under the MIT license.  
